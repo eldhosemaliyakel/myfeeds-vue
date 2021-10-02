@@ -1,0 +1,24 @@
+.btn-custom-one {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.bg-theme {
+  background: linear-gradient(-150deg, #ced2e0, #5D90C9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container {
+  min-height: 100vh;
+}
+
+.login__form {
+  max-width: 360px;
+  background-color: #fff;
+  padding: 40px;
+  margin: 0px auto;
+  border-radius: 6px;
+  box-shadow: 0px 0px 30px #00000070;
+}
