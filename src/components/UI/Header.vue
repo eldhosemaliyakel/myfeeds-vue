@@ -5,10 +5,10 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/user/list">Users</router-link>
+            <router-link class="nav-link" to="/user/users">Users</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/user/list">Posts</router-link>
+            <router-link class="nav-link" to="/user/posts">Posts</router-link>
           </li>
         </ul>
       </div>

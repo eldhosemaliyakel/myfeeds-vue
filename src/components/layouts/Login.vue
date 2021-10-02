@@ -54,7 +54,7 @@ export default {
   methods: {
     login() {
       localStorage.setItem(LOCAL_STORAGE.APP_ID, "615715841921b7438c70f886");
-      this.$router.push("/user/list");
+      this.$router.push("/user/users");
     },
   },
 };

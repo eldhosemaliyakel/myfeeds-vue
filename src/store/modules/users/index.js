@@ -6,7 +6,7 @@ export default {
   namespaced: true,
   state() {
     return {
-      users: [{ name: "John Doe", id: "01" }],
+      users: [],
       isLoading: false,
     };
   },

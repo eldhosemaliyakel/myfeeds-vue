@@ -1,3 +1,11 @@
+.position-relative {
+  position: relative;
+}
+
+.mh-80 {
+  min-height: 80vh;
+}
+
 .btn-custom-one {
   width: 100%;
   border-radius: 20px;
@@ -8,6 +16,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card--user {
+  align-items: center;
+}
+
+.card--user .card-img-top {
+  max-width: 80px;
+  margin: 18px 0 0 0;
+  border-radius: 50%;
+}
+
+.card--user .card-body {
+  text-align: center;
 }
 
 .login__container {

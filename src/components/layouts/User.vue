@@ -1,6 +1,6 @@
 <template>
   <app-header />
-  <div class="container mt-4">
+  <div class="container mt-5 position-relative">
     <router-view />
   </div>
 </template>

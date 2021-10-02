@@ -5,6 +5,7 @@ import LoginLayout from "./components/layouts/Login";
 // import UserLayout from "./components/layouts/User";
 const UserLayout = () => import("./components/layouts/User");
 const Users = () => import("./components/pages/Users");
+const UserDetails = () => import("./components/pages/UserDetails");
 
 const router = createRouter({
   linkActiveClass: "active",
@@ -15,7 +16,10 @@ const router = createRouter({
     {
       path: "/user",
       component: UserLayout,
-      children: [{ path: "list", component: Users }],
+      children: [
+          { path: "users", component: Users },
+          { path: "users/:userId", component: UserDetails },
+        ],
     },
   ],
 });
